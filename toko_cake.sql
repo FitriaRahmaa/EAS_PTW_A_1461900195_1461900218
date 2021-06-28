@@ -121,7 +121,7 @@ CREATE TABLE `transaksi` (
   `id_produk` varchar(25) NOT NULL,
   `jumlah` int(11) NOT NULL,
   `total` int(11) NOT NULL,
-  `pembayaran` varchar(25) NOT NULL,
+  `pembayaran` varchar(255) NOT NULL,
   `status` varchar(25) NOT NULL,
   `tanggal` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
